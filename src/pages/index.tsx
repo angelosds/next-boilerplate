@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 type Props = {
-  title: String
+  title: string;
 }
 
 export default function Home({ title = 'React avançado' }: Props) {
